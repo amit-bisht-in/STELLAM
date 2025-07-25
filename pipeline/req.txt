@@ -1,0 +1,17 @@
+# PyTorch with CUDA 12.1
+torch==2.2.2+cu121
+torchvision==0.17.2+cu121
+torchaudio==2.2.2+cu121
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# Core libraries
+opencv-python==4.9.0.80
+numpy==1.24.4
+moviepy==1.0.3
+open3d==0.18.0
+
+# MMCV and MMPose
+# mmcv-full==1.7.2 -f https://download.openmmlab.com/mmcv/dist/cu121/torch2.2/index.html
+
+mmpose==1.3.0
+
