@@ -1,3 +1,5 @@
 venv/
 *.whl
 *.pth
+*.mp4
+*.npz
