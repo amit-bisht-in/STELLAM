@@ -1,0 +1,21 @@
+# -- Step 1: Point pip to the correct pre-compiled GPU libraries --
+--extra-index-url https://download.pytorch.org/whl/cu121
+--find-links https://download.openmmlab.com/mmcv/dist/cu121/torch2.2/index.html
+
+# -- Step 2: PyTorch Libraries for CUDA 12.1 --
+torch==2.2.2+cu121
+torchvision==0.17.2+cu121
+torchaudio==2.2.2+cu121
+
+# -- Step 3: Core Libraries --
+opencv-python==4.9.0.80
+numpy==1.26.4
+moviepy==1.0.3
+open3d==0.18.0
+scipy
+tqdm
+
+# -- Step 4: Modern MMPose and its Dependencies --
+mmengine
+mmcv==2.1.0
+mmpose==1.3.1
